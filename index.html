@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="productsOfCoffee()">
+    <label for "coffee">Välj kaffesort</label>
+    <select name="coffee" id="coffee">
+        <option>Välj Kaffesort</option>
+    </select>
+    <label for "coffee">Antal</label>
+    <input id="amountOfCups"/>
+    <button onclick="onBuyButtonClick()">Köp</button>
+    <div id="antalError"></div>
+    <div id="amount"></div>
+    <div id="memberstatus"></div>
+    <hr/>
+    <h1 id="transactionHeader">Du har inga transaktioner</h1>
+    <div id="transaction"></div>
+    <script src="coffee.js"></script>
+
+  </body>
+</html>
